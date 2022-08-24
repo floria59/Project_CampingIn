@@ -1,0 +1,92 @@
+@charset 'utf-8';
+
+html{
+    font-size: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
+
+body{
+    overflow-x : hidden;
+    letter-spacing: -0.05em;
+}
+
+a{
+    color :black;
+    text-decoration: none;
+}
+
+/* 상단 메뉴바 */
+.top-nav{
+    width: 100%;
+    height: 44px;
+    margin-top: 100px;
+}
+
+.top-nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    border-bottom: 2px solid yellowgreen;
+}
+
+.top-nav-product-link{
+    margin-bottom: 50px;
+    margin-right: auto;
+}
+
+.top-nav-link{
+    margin-left: 3.5em;
+}
+
+.top-nav-link:hover{
+    color : yellowgreen;
+}
+
+/* 캠핑 a to z */
+.scroll-srction{
+    height: 1000px;
+}
+
+.product-message{
+    font-size: 6rem;
+    text-align: center;
+    margin-top: 1.5em;
+    color: green
+}
+
+.sticky-element{
+
+    /* position: fixed;
+
+    width: 100%;
+    height: 6rem;
+    top:6em; */
+
+    text-align: center;
+    font-weight: bold;
+    
+    font-size: 2em;
+    margin-top: 3em;
+}
+
+/* 바로가기, 위로가기 버튼 */
+.section-1-links{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+
+/* footer */
+.botten-style{
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
